@@ -28,5 +28,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
+    [super pushViewController:viewController animated:animated];
+    
+    if (self.viewControllers.count) {
+        //隐藏tabBar
+        viewController.hidesBottomBarWhenPushed = YES;
+    }
+}
+
 
 @end

@@ -53,6 +53,8 @@
 		F5D29F141D96ECCE0040402A /* CDHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D29F121D96ECCE0040402A /* CDHotViewController.m */; };
 		F5D29F191D96ECF70040402A /* CDNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D29F171D96ECF70040402A /* CDNearViewController.m */; };
 		F5D29F1A1D96ECF70040402A /* CDNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D29F181D96ECF70040402A /* CDNearViewController.xib */; };
+		F5DEEAC11DABB3EB00CA36A0 /* CDLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DEEABF1DABB3EB00CA36A0 /* CDLiveChatViewController.m */; };
+		F5DEEAC21DABB3EB00CA36A0 /* CDLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5DEEAC01DABB3EB00CA36A0 /* CDLiveChatViewController.xib */; };
 		F5E92DDB1D981FC700C93B05 /* CDMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E92DDA1D981FC700C93B05 /* CDMainTopView.m */; };
 		F5E92DE11D98581100C93B05 /* CDHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E92DE01D98581100C93B05 /* CDHttpTool.m */; };
 		F5E92DE41D987ED700C93B05 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E92DE31D987ED700C93B05 /* UIImageView+SDWebImage.m */; };
@@ -155,6 +157,9 @@
 		F5D29F161D96ECF70040402A /* CDNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDNearViewController.h; sourceTree = "<group>"; };
 		F5D29F171D96ECF70040402A /* CDNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDNearViewController.m; sourceTree = "<group>"; };
 		F5D29F181D96ECF70040402A /* CDNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDNearViewController.xib; sourceTree = "<group>"; };
+		F5DEEABE1DABB3EB00CA36A0 /* CDLiveChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLiveChatViewController.h; sourceTree = "<group>"; };
+		F5DEEABF1DABB3EB00CA36A0 /* CDLiveChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDLiveChatViewController.m; sourceTree = "<group>"; };
+		F5DEEAC01DABB3EB00CA36A0 /* CDLiveChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDLiveChatViewController.xib; sourceTree = "<group>"; };
 		F5E92DD91D981FC700C93B05 /* CDMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMainTopView.h; sourceTree = "<group>"; };
 		F5E92DDA1D981FC700C93B05 /* CDMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMainTopView.m; sourceTree = "<group>"; };
 		F5E92DDC1D9854C400C93B05 /* CDAPIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAPIConfig.h; sourceTree = "<group>"; };
@@ -580,6 +585,9 @@
 				F5D29F181D96ECF70040402A /* CDNearViewController.xib */,
 				F5A6B0751D9BCF6C00142290 /* CDPlayerViewController.h */,
 				F5A6B0761D9BCF6C00142290 /* CDPlayerViewController.m */,
+				F5DEEABE1DABB3EB00CA36A0 /* CDLiveChatViewController.h */,
+				F5DEEABF1DABB3EB00CA36A0 /* CDLiveChatViewController.m */,
+				F5DEEAC01DABB3EB00CA36A0 /* CDLiveChatViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -698,6 +706,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F54206B01D945CF10070E389 /* CDMainViewController.xib in Resources */,
+				F5DEEAC21DABB3EB00CA36A0 /* CDLiveChatViewController.xib in Resources */,
 				F53E09731D91B419002C9CE4 /* LaunchScreen.storyboard in Resources */,
 				F5D29F101D96ECB10040402A /* CDFocusViewController.xib in Resources */,
 				F5D29F071D9675900040402A /* CDLaunchViewController.xib in Resources */,
@@ -856,6 +865,7 @@
 				F58EAB991D99D3A600BE5206 /* CDLiveCell.m in Sources */,
 				F54206AB1D945CCD0070E389 /* CDBaseViewController.m in Sources */,
 				F5A6B0771D9BCF6C00142290 /* CDPlayerViewController.m in Sources */,
+				F5DEEAC11DABB3EB00CA36A0 /* CDLiveChatViewController.m in Sources */,
 				F5E92DED1D9882BE00C93B05 /* CDLiveHandler.m in Sources */,
 				F54206AF1D945CF10070E389 /* CDMainViewController.m in Sources */,
 				F5E92DE41D987ED700C93B05 /* UIImageView+SDWebImage.m in Sources */,

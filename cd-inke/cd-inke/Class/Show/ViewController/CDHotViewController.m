@@ -10,6 +10,7 @@
 #import "CDLiveHandler.h"
 #import "CDLiveCell.h"
 #import <MediaPlayer/MediaPlayer.h>
+#import "CDPlayerViewController.h"
 
 static NSString *identifier = @"CDLiveCell";
 
@@ -49,6 +50,13 @@ static NSString *identifier = @"CDLiveCell";
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     CDLive *live = self.dataList[indexPath.row];
+    
+    CDPlayerViewController *playerVC = [[CDPlayerViewController alloc]init];
+    
+    playerVC.live = live;
+    [self.navigationController pushViewController:playerVC animated:YES
+     ];
+    
     /*
      系统自带的播放不了
     MPMoviePlayerViewController *movieVC = [[MPMoviePlayerViewController alloc]initWithContentURL:[NSURL URLWithString:live.streamAddr]];
