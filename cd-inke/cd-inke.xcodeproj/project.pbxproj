@@ -1,0 +1,1153 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23AD3656D474F6135661066B /* libPods-cd-inkeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BC2148D0C237E4532E0899 /* libPods-cd-inkeUITests.a */; };
+		454033CD15ADE8A7E8ECEBD4 /* libPods-cd-inke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C78713A98A76BC6F438CDA /* libPods-cd-inke.a */; };
+		B00B9DE3858327FF8B82088F /* libPods-cd-inkeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFAC297359A3C7B67C8E455 /* libPods-cd-inkeTests.a */; };
+		F53E09651D91B419002C9CE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E09641D91B419002C9CE4 /* main.m */; };
+		F53E096E1D91B419002C9CE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53E096C1D91B419002C9CE4 /* Main.storyboard */; };
+		F53E09731D91B419002C9CE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53E09711D91B419002C9CE4 /* LaunchScreen.storyboard */; };
+		F53E097E1D91B419002C9CE4 /* cd_inkeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E097D1D91B419002C9CE4 /* cd_inkeTests.m */; };
+		F53E09891D91B419002C9CE4 /* cd_inkeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E09881D91B419002C9CE4 /* cd_inkeUITests.m */; };
+		F53E09DB1D91B85B002C9CE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F53E09D51D91B85B002C9CE4 /* AppDelegate.m */; };
+		F542067F1D93D6D10070E389 /* CDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F542067E1D93D6D10070E389 /* CDTabBarViewController.m */; };
+		F54206821D93D7040070E389 /* CDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F54206811D93D7040070E389 /* CDTabBar.m */; };
+		F54206AB1D945CCD0070E389 /* CDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54206AA1D945CCD0070E389 /* CDBaseViewController.m */; };
+		F54206AF1D945CF10070E389 /* CDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54206AD1D945CF10070E389 /* CDMainViewController.m */; };
+		F54206B01D945CF10070E389 /* CDMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54206AE1D945CF10070E389 /* CDMainViewController.xib */; };
+		F54206B41D945D0B0070E389 /* CDMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54206B21D945D0B0070E389 /* CDMeViewController.m */; };
+		F54206B51D945D0B0070E389 /* CDMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F54206B31D945D0B0070E389 /* CDMeViewController.xib */; };
+		F54206B81D9460E20070E389 /* CDBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54206B71D9460E20070E389 /* CDBaseNavigationViewController.m */; };
+		F562B1CC1D920A3800978D2C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F562B1CB1D920A3800978D2C /* ViewController.m */; };
+		F562B1D01D92104500978D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F562B1CF1D92104500978D2C /* Assets.xcassets */; };
+		F58EAB8F1D99C91A00BE5206 /* CDLive.m in Sources */ = {isa = PBXBuildFile; fileRef = F58EAB8E1D99C91A00BE5206 /* CDLive.m */; };
+		F58EAB921D99C99200BE5206 /* CDCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = F58EAB911D99C99200BE5206 /* CDCreator.m */; };
+		F58EAB951D99CD3600BE5206 /* CDMJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F58EAB941D99CD3600BE5206 /* CDMJExtensionConfig.m */; };
+		F58EAB991D99D3A600BE5206 /* CDLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F58EAB971D99D3A600BE5206 /* CDLiveCell.m */; };
+		F58EAB9A1D99D3A600BE5206 /* CDLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58EAB981D99D3A600BE5206 /* CDLiveCell.xib */; };
+		F5A6B05A1D9B174000142290 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B0591D9B174000142290 /* AVFoundation.framework */; };
+		F5A6B05C1D9B195800142290 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B05B1D9B195800142290 /* IJKMediaFramework.framework */; };
+		F5A6B05E1D9B1A0100142290 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B05D1D9B1A0100142290 /* AudioToolbox.framework */; };
+		F5A6B0601D9B1A2B00142290 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B05F1D9B1A2B00142290 /* CoreGraphics.framework */; };
+		F5A6B0621D9B1A3E00142290 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B0611D9B1A3E00142290 /* CoreMedia.framework */; };
+		F5A6B0641D9B1A4C00142290 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B0631D9B1A4C00142290 /* CoreVideo.framework */; };
+		F5A6B0661D9B1A5C00142290 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B0651D9B1A5C00142290 /* libbz2.tbd */; };
+		F5A6B0681D9B1A6C00142290 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B0671D9B1A6C00142290 /* libz.tbd */; };
+		F5A6B06A1D9B1A7A00142290 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B0691D9B1A7A00142290 /* MediaPlayer.framework */; };
+		F5A6B06C1D9B1AA100142290 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B06B1D9B1AA100142290 /* MobileCoreServices.framework */; };
+		F5A6B06E1D9B1AB100142290 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B06D1D9B1AB100142290 /* OpenGLES.framework */; };
+		F5A6B0701D9B1AC200142290 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B06F1D9B1AC200142290 /* QuartzCore.framework */; };
+		F5A6B0721D9B1ACE00142290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B0711D9B1ACE00142290 /* UIKit.framework */; };
+		F5A6B0741D9B1AE000142290 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A6B0731D9B1AE000142290 /* VideoToolbox.framework */; };
+		F5A6B0771D9BCF6C00142290 /* CDPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A6B0761D9BCF6C00142290 /* CDPlayerViewController.m */; };
+		F5D29F061D9675900040402A /* CDLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D29F041D9675900040402A /* CDLaunchViewController.m */; };
+		F5D29F071D9675900040402A /* CDLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D29F051D9675900040402A /* CDLaunchViewController.xib */; };
+		F5D29F0F1D96ECB10040402A /* CDFocusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D29F0D1D96ECB10040402A /* CDFocusViewController.m */; };
+		F5D29F101D96ECB10040402A /* CDFocusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D29F0E1D96ECB10040402A /* CDFocusViewController.xib */; };
+		F5D29F141D96ECCE0040402A /* CDHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D29F121D96ECCE0040402A /* CDHotViewController.m */; };
+		F5D29F191D96ECF70040402A /* CDNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D29F171D96ECF70040402A /* CDNearViewController.m */; };
+		F5D29F1A1D96ECF70040402A /* CDNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D29F181D96ECF70040402A /* CDNearViewController.xib */; };
+		F5E92DDB1D981FC700C93B05 /* CDMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E92DDA1D981FC700C93B05 /* CDMainTopView.m */; };
+		F5E92DE11D98581100C93B05 /* CDHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E92DE01D98581100C93B05 /* CDHttpTool.m */; };
+		F5E92DE41D987ED700C93B05 /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E92DE31D987ED700C93B05 /* UIImageView+SDWebImage.m */; };
+		F5E92DE71D987F3200C93B05 /* CDBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E92DE61D987F3200C93B05 /* CDBaseHandler.m */; };
+		F5E92DED1D9882BE00C93B05 /* CDLiveHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E92DEC1D9882BE00C93B05 /* CDLiveHandler.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F53E097A1D91B419002C9CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F53E09581D91B419002C9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F53E095F1D91B419002C9CE4;
+			remoteInfo = "cd-inke";
+		};
+		F53E09851D91B419002C9CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F53E09581D91B419002C9CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F53E095F1D91B419002C9CE4;
+			remoteInfo = "cd-inke";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C78713A98A76BC6F438CDA /* libPods-cd-inke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cd-inke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16BC2148D0C237E4532E0899 /* libPods-cd-inkeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cd-inkeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CFAC297359A3C7B67C8E455 /* libPods-cd-inkeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cd-inkeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6037B73CEC2B042503F8A170 /* Pods-cd-inke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cd-inke.release.xcconfig"; path = "Pods/Target Support Files/Pods-cd-inke/Pods-cd-inke.release.xcconfig"; sourceTree = "<group>"; };
+		6CC9F1FF4115EB08EC95367E /* Pods-cd-inkeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cd-inkeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cd-inkeTests/Pods-cd-inkeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9A61A895ACB7071938716D8 /* Pods-cd-inkeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cd-inkeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cd-inkeUITests/Pods-cd-inkeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D00440A2B115F1533652D5DF /* Pods-cd-inkeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cd-inkeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cd-inkeUITests/Pods-cd-inkeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D12EFCE0254652339DADDA5F /* Pods-cd-inkeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cd-inkeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cd-inkeTests/Pods-cd-inkeTests.release.xcconfig"; sourceTree = "<group>"; };
+		DBC7961AB749E939A29017C2 /* Pods-cd-inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cd-inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cd-inke/Pods-cd-inke.debug.xcconfig"; sourceTree = "<group>"; };
+		F53E09601D91B419002C9CE4 /* cd-inke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cd-inke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53E09641D91B419002C9CE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F53E096D1D91B419002C9CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F53E09721D91B419002C9CE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F53E09741D91B419002C9CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53E09791D91B419002C9CE4 /* cd-inkeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cd-inkeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53E097D1D91B419002C9CE4 /* cd_inkeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cd_inkeTests.m; sourceTree = "<group>"; };
+		F53E097F1D91B419002C9CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53E09841D91B419002C9CE4 /* cd-inkeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cd-inkeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F53E09881D91B419002C9CE4 /* cd_inkeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cd_inkeUITests.m; sourceTree = "<group>"; };
+		F53E098A1D91B419002C9CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F53E09D41D91B85B002C9CE4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F53E09D51D91B85B002C9CE4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F542067D1D93D6D10070E389 /* CDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTabBarViewController.h; sourceTree = "<group>"; };
+		F542067E1D93D6D10070E389 /* CDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTabBarViewController.m; sourceTree = "<group>"; };
+		F54206801D93D7040070E389 /* CDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTabBar.h; sourceTree = "<group>"; };
+		F54206811D93D7040070E389 /* CDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTabBar.m; sourceTree = "<group>"; };
+		F54206A91D945CCD0070E389 /* CDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDBaseViewController.h; sourceTree = "<group>"; };
+		F54206AA1D945CCD0070E389 /* CDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDBaseViewController.m; sourceTree = "<group>"; };
+		F54206AC1D945CF10070E389 /* CDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMainViewController.h; sourceTree = "<group>"; };
+		F54206AD1D945CF10070E389 /* CDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMainViewController.m; sourceTree = "<group>"; };
+		F54206AE1D945CF10070E389 /* CDMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDMainViewController.xib; sourceTree = "<group>"; };
+		F54206B11D945D0B0070E389 /* CDMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMeViewController.h; sourceTree = "<group>"; };
+		F54206B21D945D0B0070E389 /* CDMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMeViewController.m; sourceTree = "<group>"; };
+		F54206B31D945D0B0070E389 /* CDMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDMeViewController.xib; sourceTree = "<group>"; };
+		F54206B61D9460E20070E389 /* CDBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDBaseNavigationViewController.h; sourceTree = "<group>"; };
+		F54206B71D9460E20070E389 /* CDBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDBaseNavigationViewController.m; sourceTree = "<group>"; };
+		F562B1C91D92092F00978D2C /* inke-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "inke-PrefixHeader.pch"; sourceTree = "<group>"; };
+		F562B1CA1D920A3800978D2C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F562B1CB1D920A3800978D2C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F562B1CF1D92104500978D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F562B1D11D9215D100978D2C /* CDMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CDMacros.h; sourceTree = "<group>"; };
+		F58EAB8D1D99C91A00BE5206 /* CDLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLive.h; sourceTree = "<group>"; };
+		F58EAB8E1D99C91A00BE5206 /* CDLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDLive.m; sourceTree = "<group>"; };
+		F58EAB901D99C99200BE5206 /* CDCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCreator.h; sourceTree = "<group>"; };
+		F58EAB911D99C99200BE5206 /* CDCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCreator.m; sourceTree = "<group>"; };
+		F58EAB931D99CD3600BE5206 /* CDMJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMJExtensionConfig.h; sourceTree = "<group>"; };
+		F58EAB941D99CD3600BE5206 /* CDMJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMJExtensionConfig.m; sourceTree = "<group>"; };
+		F58EAB961D99D3A600BE5206 /* CDLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLiveCell.h; sourceTree = "<group>"; };
+		F58EAB971D99D3A600BE5206 /* CDLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDLiveCell.m; sourceTree = "<group>"; };
+		F58EAB981D99D3A600BE5206 /* CDLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDLiveCell.xib; sourceTree = "<group>"; };
+		F5A6B0591D9B174000142290 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F5A6B05B1D9B195800142290 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		F5A6B05D1D9B1A0100142290 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F5A6B05F1D9B1A2B00142290 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5A6B0611D9B1A3E00142290 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F5A6B0631D9B1A4C00142290 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F5A6B0651D9B1A5C00142290 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		F5A6B0671D9B1A6C00142290 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F5A6B0691D9B1A7A00142290 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F5A6B06B1D9B1AA100142290 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F5A6B06D1D9B1AB100142290 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F5A6B06F1D9B1AC200142290 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F5A6B0711D9B1ACE00142290 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5A6B0731D9B1AE000142290 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		F5A6B0751D9BCF6C00142290 /* CDPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDPlayerViewController.h; sourceTree = "<group>"; };
+		F5A6B0761D9BCF6C00142290 /* CDPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDPlayerViewController.m; sourceTree = "<group>"; };
+		F5D29F031D9675900040402A /* CDLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLaunchViewController.h; sourceTree = "<group>"; };
+		F5D29F041D9675900040402A /* CDLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDLaunchViewController.m; sourceTree = "<group>"; };
+		F5D29F051D9675900040402A /* CDLaunchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDLaunchViewController.xib; sourceTree = "<group>"; };
+		F5D29F0C1D96ECB10040402A /* CDFocusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDFocusViewController.h; sourceTree = "<group>"; };
+		F5D29F0D1D96ECB10040402A /* CDFocusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDFocusViewController.m; sourceTree = "<group>"; };
+		F5D29F0E1D96ECB10040402A /* CDFocusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDFocusViewController.xib; sourceTree = "<group>"; };
+		F5D29F111D96ECCE0040402A /* CDHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDHotViewController.h; sourceTree = "<group>"; };
+		F5D29F121D96ECCE0040402A /* CDHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDHotViewController.m; sourceTree = "<group>"; };
+		F5D29F161D96ECF70040402A /* CDNearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDNearViewController.h; sourceTree = "<group>"; };
+		F5D29F171D96ECF70040402A /* CDNearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDNearViewController.m; sourceTree = "<group>"; };
+		F5D29F181D96ECF70040402A /* CDNearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDNearViewController.xib; sourceTree = "<group>"; };
+		F5E92DD91D981FC700C93B05 /* CDMainTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMainTopView.h; sourceTree = "<group>"; };
+		F5E92DDA1D981FC700C93B05 /* CDMainTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMainTopView.m; sourceTree = "<group>"; };
+		F5E92DDC1D9854C400C93B05 /* CDAPIConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDAPIConfig.h; sourceTree = "<group>"; };
+		F5E92DDF1D98581100C93B05 /* CDHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDHttpTool.h; sourceTree = "<group>"; };
+		F5E92DE01D98581100C93B05 /* CDHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDHttpTool.m; sourceTree = "<group>"; };
+		F5E92DE21D987ED700C93B05 /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		F5E92DE31D987ED700C93B05 /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		F5E92DE51D987F3200C93B05 /* CDBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDBaseHandler.h; sourceTree = "<group>"; };
+		F5E92DE61D987F3200C93B05 /* CDBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDBaseHandler.m; sourceTree = "<group>"; };
+		F5E92DEB1D9882BE00C93B05 /* CDLiveHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDLiveHandler.h; sourceTree = "<group>"; };
+		F5E92DEC1D9882BE00C93B05 /* CDLiveHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDLiveHandler.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F53E095D1D91B419002C9CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A6B0741D9B1AE000142290 /* VideoToolbox.framework in Frameworks */,
+				F5A6B0721D9B1ACE00142290 /* UIKit.framework in Frameworks */,
+				F5A6B0701D9B1AC200142290 /* QuartzCore.framework in Frameworks */,
+				F5A6B06E1D9B1AB100142290 /* OpenGLES.framework in Frameworks */,
+				F5A6B06C1D9B1AA100142290 /* MobileCoreServices.framework in Frameworks */,
+				F5A6B06A1D9B1A7A00142290 /* MediaPlayer.framework in Frameworks */,
+				F5A6B0681D9B1A6C00142290 /* libz.tbd in Frameworks */,
+				F5A6B0661D9B1A5C00142290 /* libbz2.tbd in Frameworks */,
+				F5A6B0641D9B1A4C00142290 /* CoreVideo.framework in Frameworks */,
+				F5A6B0621D9B1A3E00142290 /* CoreMedia.framework in Frameworks */,
+				F5A6B0601D9B1A2B00142290 /* CoreGraphics.framework in Frameworks */,
+				F5A6B05A1D9B174000142290 /* AVFoundation.framework in Frameworks */,
+				F5A6B05E1D9B1A0100142290 /* AudioToolbox.framework in Frameworks */,
+				F5A6B05C1D9B195800142290 /* IJKMediaFramework.framework in Frameworks */,
+				454033CD15ADE8A7E8ECEBD4 /* libPods-cd-inke.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53E09761D91B419002C9CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00B9DE3858327FF8B82088F /* libPods-cd-inkeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53E09811D91B419002C9CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AD3656D474F6135661066B /* libPods-cd-inkeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356D1B15FDB92D28B97C9801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5A6B0731D9B1AE000142290 /* VideoToolbox.framework */,
+				F5A6B0711D9B1ACE00142290 /* UIKit.framework */,
+				F5A6B06F1D9B1AC200142290 /* QuartzCore.framework */,
+				F5A6B06D1D9B1AB100142290 /* OpenGLES.framework */,
+				F5A6B06B1D9B1AA100142290 /* MobileCoreServices.framework */,
+				F5A6B0691D9B1A7A00142290 /* MediaPlayer.framework */,
+				F5A6B0671D9B1A6C00142290 /* libz.tbd */,
+				F5A6B0651D9B1A5C00142290 /* libbz2.tbd */,
+				F5A6B0631D9B1A4C00142290 /* CoreVideo.framework */,
+				F5A6B0611D9B1A3E00142290 /* CoreMedia.framework */,
+				F5A6B05F1D9B1A2B00142290 /* CoreGraphics.framework */,
+				F5A6B05D1D9B1A0100142290 /* AudioToolbox.framework */,
+				F5A6B05B1D9B195800142290 /* IJKMediaFramework.framework */,
+				F5A6B0591D9B174000142290 /* AVFoundation.framework */,
+				04C78713A98A76BC6F438CDA /* libPods-cd-inke.a */,
+				4CFAC297359A3C7B67C8E455 /* libPods-cd-inkeTests.a */,
+				16BC2148D0C237E4532E0899 /* libPods-cd-inkeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C2324C00873D5EFB6B758F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBC7961AB749E939A29017C2 /* Pods-cd-inke.debug.xcconfig */,
+				6037B73CEC2B042503F8A170 /* Pods-cd-inke.release.xcconfig */,
+				6CC9F1FF4115EB08EC95367E /* Pods-cd-inkeTests.debug.xcconfig */,
+				D12EFCE0254652339DADDA5F /* Pods-cd-inkeTests.release.xcconfig */,
+				D00440A2B115F1533652D5DF /* Pods-cd-inkeUITests.debug.xcconfig */,
+				B9A61A895ACB7071938716D8 /* Pods-cd-inkeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F53E09571D91B419002C9CE4 = {
+			isa = PBXGroup;
+			children = (
+				F53E09621D91B419002C9CE4 /* cd-inke */,
+				F53E097C1D91B419002C9CE4 /* cd-inkeTests */,
+				F53E09871D91B419002C9CE4 /* cd-inkeUITests */,
+				F53E09611D91B419002C9CE4 /* Products */,
+				6C2324C00873D5EFB6B758F5 /* Pods */,
+				356D1B15FDB92D28B97C9801 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F53E09611D91B419002C9CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F53E09601D91B419002C9CE4 /* cd-inke.app */,
+				F53E09791D91B419002C9CE4 /* cd-inkeTests.xctest */,
+				F53E09841D91B419002C9CE4 /* cd-inkeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F53E09621D91B419002C9CE4 /* cd-inke */ = {
+			isa = PBXGroup;
+			children = (
+				F53E09BD1D91B85B002C9CE4 /* Class */,
+				F53E09631D91B419002C9CE4 /* Supporting Files */,
+			);
+			path = "cd-inke";
+			sourceTree = "<group>";
+		};
+		F53E09631D91B419002C9CE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F53E096C1D91B419002C9CE4 /* Main.storyboard */,
+				F53E09711D91B419002C9CE4 /* LaunchScreen.storyboard */,
+				F562B1CF1D92104500978D2C /* Assets.xcassets */,
+				F53E09741D91B419002C9CE4 /* Info.plist */,
+				F53E09641D91B419002C9CE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F53E097C1D91B419002C9CE4 /* cd-inkeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F53E097D1D91B419002C9CE4 /* cd_inkeTests.m */,
+				F53E097F1D91B419002C9CE4 /* Info.plist */,
+			);
+			path = "cd-inkeTests";
+			sourceTree = "<group>";
+		};
+		F53E09871D91B419002C9CE4 /* cd-inkeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F53E09881D91B419002C9CE4 /* cd_inkeUITests.m */,
+				F53E098A1D91B419002C9CE4 /* Info.plist */,
+			);
+			path = "cd-inkeUITests";
+			sourceTree = "<group>";
+		};
+		F53E09BD1D91B85B002C9CE4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F53E09BE1D91B85B002C9CE4 /* Base */,
+				F53E09BF1D91B85B002C9CE4 /* Helper */,
+				F53E09C21D91B85B002C9CE4 /* Launch */,
+				F53E09C71D91B85B002C9CE4 /* Lib */,
+				F53E09C81D91B85B002C9CE4 /* Live */,
+				F53E09CD1D91B85B002C9CE4 /* Me */,
+				F53E09D21D91B85B002C9CE4 /* NetWork */,
+				F53E09D31D91B85B002C9CE4 /* Other */,
+				F53E09D61D91B85B002C9CE4 /* Show */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		F53E09BE1D91B85B002C9CE4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F542067D1D93D6D10070E389 /* CDTabBarViewController.h */,
+				F542067E1D93D6D10070E389 /* CDTabBarViewController.m */,
+				F54206801D93D7040070E389 /* CDTabBar.h */,
+				F54206811D93D7040070E389 /* CDTabBar.m */,
+				F54206A91D945CCD0070E389 /* CDBaseViewController.h */,
+				F54206AA1D945CCD0070E389 /* CDBaseViewController.m */,
+				F54206B61D9460E20070E389 /* CDBaseNavigationViewController.h */,
+				F54206B71D9460E20070E389 /* CDBaseNavigationViewController.m */,
+				F5E92DE51D987F3200C93B05 /* CDBaseHandler.h */,
+				F5E92DE61D987F3200C93B05 /* CDBaseHandler.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F53E09BF1D91B85B002C9CE4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F53E09C01D91B85B002C9CE4 /* Category */,
+				F53E09C11D91B85B002C9CE4 /* Tools */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F53E09C01D91B85B002C9CE4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		F53E09C11D91B85B002C9CE4 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		F53E09C21D91B85B002C9CE4 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				F53E09C31D91B85B002C9CE4 /* Handler */,
+				F53E09C41D91B85B002C9CE4 /* Model */,
+				F53E09C51D91B85B002C9CE4 /* View */,
+				F53E09C61D91B85B002C9CE4 /* ViewController */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		F53E09C31D91B85B002C9CE4 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		F53E09C41D91B85B002C9CE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F53E09C51D91B85B002C9CE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F53E09C61D91B85B002C9CE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F53E09C71D91B85B002C9CE4 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		F53E09C81D91B85B002C9CE4 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				F53E09C91D91B85B002C9CE4 /* Handler */,
+				F53E09CA1D91B85B002C9CE4 /* Model */,
+				F53E09CB1D91B85B002C9CE4 /* View */,
+				F53E09CC1D91B85B002C9CE4 /* ViewController */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		F53E09C91D91B85B002C9CE4 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		F53E09CA1D91B85B002C9CE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F53E09CB1D91B85B002C9CE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F53E09CC1D91B85B002C9CE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5D29F031D9675900040402A /* CDLaunchViewController.h */,
+				F5D29F041D9675900040402A /* CDLaunchViewController.m */,
+				F5D29F051D9675900040402A /* CDLaunchViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F53E09CD1D91B85B002C9CE4 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				F53E09CE1D91B85B002C9CE4 /* Handler */,
+				F53E09CF1D91B85B002C9CE4 /* Model */,
+				F53E09D01D91B85B002C9CE4 /* View */,
+				F53E09D11D91B85B002C9CE4 /* ViewController */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		F53E09CE1D91B85B002C9CE4 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		F53E09CF1D91B85B002C9CE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F53E09D01D91B85B002C9CE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F53E09D11D91B85B002C9CE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F53E09D21D91B85B002C9CE4 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				F5E92DDC1D9854C400C93B05 /* CDAPIConfig.h */,
+				F5E92DDF1D98581100C93B05 /* CDHttpTool.h */,
+				F5E92DE01D98581100C93B05 /* CDHttpTool.m */,
+				F5E92DE21D987ED700C93B05 /* UIImageView+SDWebImage.h */,
+				F5E92DE31D987ED700C93B05 /* UIImageView+SDWebImage.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		F53E09D31D91B85B002C9CE4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F53E09D41D91B85B002C9CE4 /* AppDelegate.h */,
+				F53E09D51D91B85B002C9CE4 /* AppDelegate.m */,
+				F562B1CA1D920A3800978D2C /* ViewController.h */,
+				F562B1CB1D920A3800978D2C /* ViewController.m */,
+				F562B1C91D92092F00978D2C /* inke-PrefixHeader.pch */,
+				F562B1D11D9215D100978D2C /* CDMacros.h */,
+				F58EAB931D99CD3600BE5206 /* CDMJExtensionConfig.h */,
+				F58EAB941D99CD3600BE5206 /* CDMJExtensionConfig.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F53E09D61D91B85B002C9CE4 /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				F53E09D71D91B85B002C9CE4 /* Handler */,
+				F53E09D81D91B85B002C9CE4 /* Model */,
+				F53E09D91D91B85B002C9CE4 /* View */,
+				F53E09DA1D91B85B002C9CE4 /* ViewController */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		F53E09D71D91B85B002C9CE4 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				F5E92DEB1D9882BE00C93B05 /* CDLiveHandler.h */,
+				F5E92DEC1D9882BE00C93B05 /* CDLiveHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		F53E09D81D91B85B002C9CE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F58EAB8D1D99C91A00BE5206 /* CDLive.h */,
+				F58EAB8E1D99C91A00BE5206 /* CDLive.m */,
+				F58EAB901D99C99200BE5206 /* CDCreator.h */,
+				F58EAB911D99C99200BE5206 /* CDCreator.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F53E09D91D91B85B002C9CE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5E92DD91D981FC700C93B05 /* CDMainTopView.h */,
+				F5E92DDA1D981FC700C93B05 /* CDMainTopView.m */,
+				F58EAB961D99D3A600BE5206 /* CDLiveCell.h */,
+				F58EAB971D99D3A600BE5206 /* CDLiveCell.m */,
+				F58EAB981D99D3A600BE5206 /* CDLiveCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F53E09DA1D91B85B002C9CE4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F54206AC1D945CF10070E389 /* CDMainViewController.h */,
+				F54206AD1D945CF10070E389 /* CDMainViewController.m */,
+				F54206AE1D945CF10070E389 /* CDMainViewController.xib */,
+				F54206B11D945D0B0070E389 /* CDMeViewController.h */,
+				F54206B21D945D0B0070E389 /* CDMeViewController.m */,
+				F54206B31D945D0B0070E389 /* CDMeViewController.xib */,
+				F5D29F0C1D96ECB10040402A /* CDFocusViewController.h */,
+				F5D29F0D1D96ECB10040402A /* CDFocusViewController.m */,
+				F5D29F0E1D96ECB10040402A /* CDFocusViewController.xib */,
+				F5D29F111D96ECCE0040402A /* CDHotViewController.h */,
+				F5D29F121D96ECCE0040402A /* CDHotViewController.m */,
+				F5D29F161D96ECF70040402A /* CDNearViewController.h */,
+				F5D29F171D96ECF70040402A /* CDNearViewController.m */,
+				F5D29F181D96ECF70040402A /* CDNearViewController.xib */,
+				F5A6B0751D9BCF6C00142290 /* CDPlayerViewController.h */,
+				F5A6B0761D9BCF6C00142290 /* CDPlayerViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F53E095F1D91B419002C9CE4 /* cd-inke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53E098D1D91B419002C9CE4 /* Build configuration list for PBXNativeTarget "cd-inke" */;
+			buildPhases = (
+				81C2CDF820ADB24E8E26ABBA /* [CP] Check Pods Manifest.lock */,
+				F53E095C1D91B419002C9CE4 /* Sources */,
+				F53E095D1D91B419002C9CE4 /* Frameworks */,
+				F53E095E1D91B419002C9CE4 /* Resources */,
+				ECD152830F3EF18C9284571E /* [CP] Embed Pods Frameworks */,
+				72E9F03E6AD3B199CD0F49D5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cd-inke";
+			productName = "cd-inke";
+			productReference = F53E09601D91B419002C9CE4 /* cd-inke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F53E09781D91B419002C9CE4 /* cd-inkeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53E09901D91B419002C9CE4 /* Build configuration list for PBXNativeTarget "cd-inkeTests" */;
+			buildPhases = (
+				A2F376A233ABB4CF97D82570 /* [CP] Check Pods Manifest.lock */,
+				F53E09751D91B419002C9CE4 /* Sources */,
+				F53E09761D91B419002C9CE4 /* Frameworks */,
+				F53E09771D91B419002C9CE4 /* Resources */,
+				FC321642B40866AD6FB9FE5E /* [CP] Embed Pods Frameworks */,
+				61D58E24C68FA158D8733209 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F53E097B1D91B419002C9CE4 /* PBXTargetDependency */,
+			);
+			name = "cd-inkeTests";
+			productName = "cd-inkeTests";
+			productReference = F53E09791D91B419002C9CE4 /* cd-inkeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F53E09831D91B419002C9CE4 /* cd-inkeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F53E09931D91B419002C9CE4 /* Build configuration list for PBXNativeTarget "cd-inkeUITests" */;
+			buildPhases = (
+				94210BD280186F7FFBD65809 /* [CP] Check Pods Manifest.lock */,
+				F53E09801D91B419002C9CE4 /* Sources */,
+				F53E09811D91B419002C9CE4 /* Frameworks */,
+				F53E09821D91B419002C9CE4 /* Resources */,
+				A1E705799CD31328A072593B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F53E09861D91B419002C9CE4 /* PBXTargetDependency */,
+			);
+			name = "cd-inkeUITests";
+			productName = "cd-inkeUITests";
+			productReference = F53E09841D91B419002C9CE4 /* cd-inkeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F53E09581D91B419002C9CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CD;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ChenDong;
+				TargetAttributes = {
+					F53E095F1D91B419002C9CE4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 26A863V87T;
+					};
+					F53E09781D91B419002C9CE4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F53E095F1D91B419002C9CE4;
+					};
+					F53E09831D91B419002C9CE4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F53E095F1D91B419002C9CE4;
+					};
+				};
+			};
+			buildConfigurationList = F53E095B1D91B419002C9CE4 /* Build configuration list for PBXProject "cd-inke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F53E09571D91B419002C9CE4;
+			productRefGroup = F53E09611D91B419002C9CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F53E095F1D91B419002C9CE4 /* cd-inke */,
+				F53E09781D91B419002C9CE4 /* cd-inkeTests */,
+				F53E09831D91B419002C9CE4 /* cd-inkeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F53E095E1D91B419002C9CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54206B01D945CF10070E389 /* CDMainViewController.xib in Resources */,
+				F53E09731D91B419002C9CE4 /* LaunchScreen.storyboard in Resources */,
+				F5D29F101D96ECB10040402A /* CDFocusViewController.xib in Resources */,
+				F5D29F071D9675900040402A /* CDLaunchViewController.xib in Resources */,
+				F54206B51D945D0B0070E389 /* CDMeViewController.xib in Resources */,
+				F5D29F1A1D96ECF70040402A /* CDNearViewController.xib in Resources */,
+				F562B1D01D92104500978D2C /* Assets.xcassets in Resources */,
+				F58EAB9A1D99D3A600BE5206 /* CDLiveCell.xib in Resources */,
+				F53E096E1D91B419002C9CE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53E09771D91B419002C9CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53E09821D91B419002C9CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61D58E24C68FA158D8733209 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cd-inkeTests/Pods-cd-inkeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72E9F03E6AD3B199CD0F49D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cd-inke/Pods-cd-inke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81C2CDF820ADB24E8E26ABBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		94210BD280186F7FFBD65809 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1E705799CD31328A072593B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cd-inkeUITests/Pods-cd-inkeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2F376A233ABB4CF97D82570 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECD152830F3EF18C9284571E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cd-inke/Pods-cd-inke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC321642B40866AD6FB9FE5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cd-inkeTests/Pods-cd-inkeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F53E095C1D91B419002C9CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58EAB991D99D3A600BE5206 /* CDLiveCell.m in Sources */,
+				F54206AB1D945CCD0070E389 /* CDBaseViewController.m in Sources */,
+				F5A6B0771D9BCF6C00142290 /* CDPlayerViewController.m in Sources */,
+				F5E92DED1D9882BE00C93B05 /* CDLiveHandler.m in Sources */,
+				F54206AF1D945CF10070E389 /* CDMainViewController.m in Sources */,
+				F5E92DE41D987ED700C93B05 /* UIImageView+SDWebImage.m in Sources */,
+				F5D29F061D9675900040402A /* CDLaunchViewController.m in Sources */,
+				F562B1CC1D920A3800978D2C /* ViewController.m in Sources */,
+				F542067F1D93D6D10070E389 /* CDTabBarViewController.m in Sources */,
+				F5E92DE71D987F3200C93B05 /* CDBaseHandler.m in Sources */,
+				F5D29F0F1D96ECB10040402A /* CDFocusViewController.m in Sources */,
+				F53E09DB1D91B85B002C9CE4 /* AppDelegate.m in Sources */,
+				F5E92DE11D98581100C93B05 /* CDHttpTool.m in Sources */,
+				F54206821D93D7040070E389 /* CDTabBar.m in Sources */,
+				F58EAB951D99CD3600BE5206 /* CDMJExtensionConfig.m in Sources */,
+				F58EAB8F1D99C91A00BE5206 /* CDLive.m in Sources */,
+				F5E92DDB1D981FC700C93B05 /* CDMainTopView.m in Sources */,
+				F5D29F191D96ECF70040402A /* CDNearViewController.m in Sources */,
+				F53E09651D91B419002C9CE4 /* main.m in Sources */,
+				F5D29F141D96ECCE0040402A /* CDHotViewController.m in Sources */,
+				F58EAB921D99C99200BE5206 /* CDCreator.m in Sources */,
+				F54206B41D945D0B0070E389 /* CDMeViewController.m in Sources */,
+				F54206B81D9460E20070E389 /* CDBaseNavigationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53E09751D91B419002C9CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53E097E1D91B419002C9CE4 /* cd_inkeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F53E09801D91B419002C9CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F53E09891D91B419002C9CE4 /* cd_inkeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F53E097B1D91B419002C9CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F53E095F1D91B419002C9CE4 /* cd-inke */;
+			targetProxy = F53E097A1D91B419002C9CE4 /* PBXContainerItemProxy */;
+		};
+		F53E09861D91B419002C9CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F53E095F1D91B419002C9CE4 /* cd-inke */;
+			targetProxy = F53E09851D91B419002C9CE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F53E096C1D91B419002C9CE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53E096D1D91B419002C9CE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F53E09711D91B419002C9CE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F53E09721D91B419002C9CE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F53E098B1D91B419002C9CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F53E098C1D91B419002C9CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F53E098E1D91B419002C9CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC7961AB749E939A29017C2 /* Pods-cd-inke.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/cd-inke/Class/Other/inke-PrefixHeader.pch";
+				INFOPLIST_FILE = "cd-inke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dong.cd-inke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F53E098F1D91B419002C9CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6037B73CEC2B042503F8A170 /* Pods-cd-inke.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/cd-inke/Class/Other/inke-PrefixHeader.pch";
+				INFOPLIST_FILE = "cd-inke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dong.cd-inke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F53E09911D91B419002C9CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CC9F1FF4115EB08EC95367E /* Pods-cd-inkeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cd-inkeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dong.cd-inkeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cd-inke.app/cd-inke";
+			};
+			name = Debug;
+		};
+		F53E09921D91B419002C9CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D12EFCE0254652339DADDA5F /* Pods-cd-inkeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cd-inkeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dong.cd-inkeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cd-inke.app/cd-inke";
+			};
+			name = Release;
+		};
+		F53E09941D91B419002C9CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00440A2B115F1533652D5DF /* Pods-cd-inkeUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "cd-inkeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dong.cd-inkeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cd-inke";
+			};
+			name = Debug;
+		};
+		F53E09951D91B419002C9CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9A61A895ACB7071938716D8 /* Pods-cd-inkeUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "cd-inkeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dong.cd-inkeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cd-inke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F53E095B1D91B419002C9CE4 /* Build configuration list for PBXProject "cd-inke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53E098B1D91B419002C9CE4 /* Debug */,
+				F53E098C1D91B419002C9CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53E098D1D91B419002C9CE4 /* Build configuration list for PBXNativeTarget "cd-inke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53E098E1D91B419002C9CE4 /* Debug */,
+				F53E098F1D91B419002C9CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53E09901D91B419002C9CE4 /* Build configuration list for PBXNativeTarget "cd-inkeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53E09911D91B419002C9CE4 /* Debug */,
+				F53E09921D91B419002C9CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F53E09931D91B419002C9CE4 /* Build configuration list for PBXNativeTarget "cd-inkeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F53E09941D91B419002C9CE4 /* Debug */,
+				F53E09951D91B419002C9CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F53E09581D91B419002C9CE4 /* Project object */;
+}
